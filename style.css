@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+body{
+    background-color: #5BBAD3;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #5BBAD3;
+}
+
+.links{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.blog{
+    text-decoration: none;
+    color: white;
+    background-color: #A6CAD3;
+    padding: 20px 55px;
+    border-radius: 4px;
+}
+
+.blog:hover{
+    background-color: #9cd5e4;
+}
+
+.land{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 80px;
+    background-color: #5BBAD3;
+    height: 85vh;
+}
+
+.leftside{
+    width: 45vw;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.text{
+ width: 40vw;
+}
+
+.text h1{
+    font-size: 54px;
+    color: #0F426D;
+    margin-bottom: 30px;
+}
+
+.text p{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.leftside a{
+    text-decoration: none;
+    color: white;
+    border: solid 2px #fff;
+    padding: 20px 55px;
+    border-radius: 8px;
+    margin-left: 250px;
+}
+
+.leftside a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.imagem{
+    justify-content: space-around;
+}
+
+.imagem p{
+    width: 42vw;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.rightside a{
+    text-decoration: none;
+    color: black;
+    background-color: #9CD5E4;
+    padding: 20px 55px;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.auto{
+    margin-top: 80px;
+}
+
+.rightside a:hover{
+    background-color: #5BBAD3;
+    border: solid 3px #9CD5E4;
+    color: white;
+}
+
+.news{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #DEF1F6;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.newsletter{
+    margin-top: 20px;
+    width: 45vw;
+    font-size: 18px;
+}
+
+b{
+    font-size: 24px;
+}
+
+span{
+    font-weight: 600;
+}
+
+footer{
+    background-color: #366F7E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+footer p{
+    width: 30vw;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+footer a{
+    color: white;
+}
+
+footer img{
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .links {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .blog {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+
+    .land {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .leftside, .rightside {
+        width: 90vw;
+        margin: 20px 0;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text p {
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .leftside a, .rightside a {
+        display: block;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+    .imagem p {
+        width: 100%;
+        font-size: 16px;
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    .news {
+        padding: 20px;
+    }
+
+    .newsletter {
+        width: 90vw;
+        font-size: 16px;
+    }
+
+    .title h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer p {
+        width: 90vw;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    footer img {
+        width: 70px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
